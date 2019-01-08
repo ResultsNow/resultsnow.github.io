@@ -1,0 +1,28 @@
+# Site settings
+title: Results Now
+tagline: "Changing the world, one uninspired quote at a time"
+url: "https://resultsnowfitness.net" # The base hostname & protocol for your site. Use it if you need absolute URL's
+description: ""
+
+# Social
+socialimg: /img/social.jpg # be sure to change this image
+facebook: fbusername
+twitter: twusername
+github: ghusername
+googleplus: gusername
+instagram: igusername
+
+# Contact
+phone: "1-859-334-0249"
+email: "resultsnowllc@gmail.com"
+street1: "1597 Cavalry Drive"
+city: "Union"
+state: "KY"
+zipcode: "41091"
+
+# Use this for production
+sass:
+    sass_dir: _sass
+    style: compact
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
