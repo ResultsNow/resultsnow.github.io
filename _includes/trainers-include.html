@@ -6,43 +6,20 @@
     </div>
 </div>
 <div class="row">
+    {% for trainer in site.data.trainers %}
+    {% assign mod4 = forloop.index | modulo: 4 %}
     <div class="col-md-3 col-sm-3 animate-box">
         <div class="trainers-entry">
-            <div class="trainer-img" style="background-image: url('{{ realtive_url }}/images/trainer-1.jpg')"></div>
+            <div class="trainer-img" style="background-image: url('{{ realtive_url }}/images/{{ trainer.image }}')"></div>
             <div class="desc">
-                <h3>Diego Carter</h3>
-                <span>Body Building Trainer</span>
+                <h3>{{ trainer.name }}</h3>
+                <span>{{ trainer.specialty }}</span>
             </div>
         </div>
     </div>
-
-    <div class="col-md-3 col-sm-3 animate-box">
-        <div class="trainers-entry">
-            <div class="trainer-img" style="background-image: url('{{ realtive_url }}/images/trainer-2.jpg')"></div>
-            <div class="desc">
-                <h3>Lea Young</h3>
-                <span>Body Building Trainer</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3 col-sm-3 animate-box">
-        <div class="trainers-entry">
-            <div class="trainer-img" style="background-image: url('{{ realtive_url }}/images/trainer-3.jpg')"></div>
-            <div class="desc">
-                <h3>Alysha Reed</h3>
-                <span>Body Building Trainer</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3 col-sm-3 animate-box">
-        <div class="trainers-entry">
-            <div class="trainer-img" style="background-image: url('{{ realtive_url }}/images/trainer-4.jpg')"></div>
-            <div class="desc">
-                <h3>George Cooper</h3>
-                <span>Body Building Trainer</span>
-            </div>
-        </div>
-    </div>
+    {% if mod4 == 0 %}
+</div>
+<div class="row">
+    {% endif %}
+    {% endfor %}
 </div>
