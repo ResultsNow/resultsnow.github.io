@@ -1,0 +1,157 @@
+monday:
+
+- time: 5:30 AM
+  program: Muscle Quake
+  trainer: Kat
+  type: Strength
+  icon: flaticon-weightlifting
+
+- time: 9:00 AM
+  program: Tabata Burn
+  trainer: Linda
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 10:15 AM
+  program: Hatha Yoga
+  trainer: Jenny
+  type: Yoga
+  icon: flaticon-meditation
+
+- time: 6:00 PM
+  program: Speed & Agility Bootcamp
+  trainer: Kat
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 7:00 PM
+  program: Strength Camp
+  trainer: Linda
+  type: Strength
+  icon: flaticon-weightlifting
+
+tuesday:
+
+- time: 5:30 AM
+  program: Speed & Agility Bootcamp
+  trainer: Kat
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 9:00 AM
+  program: Strength Camp
+  trainer: Kyle
+  type: Strength
+  icon: flaticon-weightlifting
+
+- time: 5:30 PM
+  program: Tabata Bootcamp
+  trainer: Linda
+  type: Mix
+  icon: flaticon-exercise-2
+
+- time: 6:30 PM
+  program: Cardio Kickboxing
+  trainer: Kat
+  type: Cardio
+  icon: flaticon-gym
+
+wednesday:
+
+- time: 5:30 AM
+  program: Bootcamp
+  trainer: Linda
+  type: Mix
+  icon: flaticon-exercise-2
+
+- time: 9:00 AM
+  program: Blast
+  trainer: Kat
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 6:00 PM
+  program: Tabata Burn
+  trainer: Linda
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 7:00 PM
+  program: Muscle Quake
+  trainer: Kat
+  type: Strength
+  icon: flaticon-weightlifting
+
+thursday:
+
+- time: 5:30 AM
+  program: Cardio Core
+  trainer: Linda
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 9:00 AM
+  program: Bootcamp
+  trainer: Kyle
+  type: Mix
+  icon: flaticon-exercise-2
+
+- time: 5:30 PM
+  program: Bootcamp
+  trainer: Linda
+  type: Mix
+  icon: flaticon-exercise-2
+
+- time: 6:30 PM
+  program: Vinyasa Slow Flow Yoga
+  trainer: Lisa
+  type: Yoga
+  icon: flaticon-meditation
+
+friday:
+
+- time: 5:30 AM
+  program: Strength Camp
+  trainer: Kyle
+  type: Strength
+  icon: flaticon-weightlifting
+
+- time: 9:15 AM
+  program: Tabata Burn
+  trainer: Linda
+  type: Cardio
+  icon: flaticon-gym
+
+- time: 10:15 AM
+  program: Hatha Yoga
+  trainer: Jenny
+  type: Yoga
+  icon: flaticon-meditation
+
+saturday:
+
+- time: 8:00 AM
+  program: Muscle Quake
+  trainer: Kat
+  type: Strength
+  icon: flaticon-weightlifting
+
+- time: 9:15 AM
+  program: Ashtanga Yoga
+  trainer: Stephanie
+  type: Yoga
+  icon: flaticon-meditation
+
+- time: 11:00 AM
+  program: Tot-ercise
+  trainer: Linda
+  type: Kids
+  icon: flaticon-martial-arts
+
+sunday:
+
+- time: 9:00 AM
+  program: Cardio Core
+  trainer: Linda
+  type: Cardio
+  icon: flaticon-gym

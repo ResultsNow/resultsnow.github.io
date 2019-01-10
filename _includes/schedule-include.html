@@ -9,66 +9,39 @@
     <div class="schedule text-center animate-box">
         <div class="col-md-12">
             <ul class="week">
-                <li class="active"><a href="{{ '/#sunday' | relative_url }}">Sunday</a></li>
-                <li><a href="{{ '/#monday' | relative_url }}">Monday</a></li>
-                <li><a href="{{ '/#tuesday' | relative_url }}">Tuesday</a></li>
-                <li><a href="{{ '/#wednesday' | relative_url }}">Wednesday</a></li>
-                <li><a href="{{ '/#thursday' | relative_url }}">Thursday</a></li>
-                <li><a href="{{ '/#friday' | relative_url }}">Friday</a></li>
-                <li><a href="{{ '/#saturday' | relative_url }}">Saturday</a></li>
+                <li class="active"><a data-toggle="tab" href="#monday">Monday</a></li>
+                <li><a data-toggle="tab" href="#tuesday">Tuesday</a></li>
+                <li><a data-toggle="tab" href="#wednesday">Wednesday</a></li>
+                <li><a data-toggle="tab" href="#thursday">Thursday</a></li>
+                <li><a data-toggle="tab" href="#friday">Friday</a></li>
+                <li><a data-toggle="tab" href="#saturday">Saturday</a></li>
+                <li><a data-toggle="tab" href="#sunday">Sunday</a></li>
             </ul>
         </div>
-        <div class="schedule-flex">
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-gym"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Cardio Program</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
+
+        <div class="tab-content">
+            {% for collection in site.data.schedule %}
+            {% capture label %}{{ collection | first }}{% endcapture %}
+
+            <div id="{{ label }}" class="tab-pane fade {% if forloop.first == true %} in active {% endif %}">
+                <div class="schedule-flex">
+                    {% for item in site.data.schedule.[label] %}
+                    {% assign mod4 = forloop.index | modulo: 4 %}
+                    <div class="entry-forth">
+                        <p class="icon"><span><i class="{{ item.icon }}"></i></span></p>
+                        <p class="time"><span>{{ item.time }}</span></p>
+                        <h3>{{ item.program }}</h3>
+                        <p class="trainer"><span>{{ item.trainer }}</span></p>
+                    </div>
+                    {% if mod4 == 0 %}
+                </div>
+                <div class="schedule-flex">
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </div>
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-exercise-2"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Loose Weight Program</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-meditation"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Yoga Classes</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-gloves"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Boxing Program</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
-        </div>
-        <div class="schedule-flex">
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-martial-arts"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Karate Classes</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-weightlifting"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Body Building</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-swimmer"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Swimming Program</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
-            <div class="entry-forth">
-                <p class="icon"><span><i class="flaticon-man"></i></span></p>
-                <p class="time"><span>06am - 8am</span></p>
-                <h3>Basic Exercise</h3>
-                <p class="trainer"><span>Tom Scott</span></p>
-            </div>
+
+            {% endfor %}
         </div>
     </div>
 </div>
