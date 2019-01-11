@@ -1,6 +1,6 @@
 monday:
 
-- time: 5:30 AM
+- time: 5:30 AM - 6:00 PM
   program: Muscle Quake
   trainer: Kat
   type: Strength
@@ -10,7 +10,7 @@ monday:
   program: Tabata Burn
   trainer: Linda
   type: Cardio
-  icon: flaticon-gym
+  icon: flaticon-exercise-2
 
 - time: 10:15 AM
   program: Hatha Yoga
