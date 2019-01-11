@@ -1,8 +1,9 @@
 # Site settings
 title: Results Now
-tagline: "Changing the world, one uninspired quote at a time"
+tagline: "Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
 url: "https://resultsnowfitness.net" # The base hostname & protocol for your site. Use it if you need absolute URL's
 description: ""
+future: true
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image

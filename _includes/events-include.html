@@ -6,84 +6,26 @@
     </div>
 </div>
 <div class="row row-pb-sm">
+    {% for post in site.categories.events reversed %}
+    {% assign mod3 = forloop.index | modulo: 3 %}
     <div class="col-md-4 animate-box">
         <div class="event-entry">
             <div class="desc">
-                <p class="meta"><span class="day">19</span><span class="month">Apr</span></p>
-                <p class="organizer"><span>Organized by:</span> <span>Noah Henderson</span></p>
-                <h2><a href="event.html">Special Training for Karate at Robust Gym</a></h2>
+                <p class="meta"><span class="day">{{ post.date | date: "%d" }}</span><span class="month">{{
+                        post.date | date: "%b" }}</span></p>
+                <p class="organizer"><span>Organized by:</span> <span>{{ post.organizer }}</span></p>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             </div>
             <div class="location">
                 <span class="icon"><i class="icon-map"></i></span>
-                <p>291 South 21th Street, Suite 721 New York NY 10016</p>
+                <p>{{ post.location }}</p>
             </div>
+            {{ post.excerpt }}
         </div>
     </div>
-    <div class="col-md-4 animate-box">
-        <div class="event-entry">
-            <div class="desc">
-                <p class="meta"><span class="day">19</span><span class="month">Apr</span></p>
-                <p class="organizer"><span>Organized by:</span> <span>Noah Henderson</span></p>
-                <h2><a href="event.html">World Yoga Day at Robust Gym</a></h2>
-            </div>
-            <div class="location">
-                <span class="icon"><i class="icon-map"></i></span>
-                <p>291 South 21th Street, Suite 721 New York NY 10016</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 animate-box">
-        <div class="event-entry">
-            <div class="desc">
-                <p class="meta"><span class="day">19</span><span class="month">Apr</span></p>
-                <p class="organizer"><span>Organized by:</span> <span>Noah Henderson</span></p>
-                <h2><a href="event.html">1st Anniversary of Robust Gym</a></h2>
-            </div>
-            <div class="location">
-                <span class="icon"><i class="icon-map"></i></span>
-                <p>291 South 21th Street, Suite 721 New York NY 10016</p>
-            </div>
-        </div>
-    </div>
+    {% if mod3 == 0 %}
 </div>
 <div class="row row-pb-sm">
-    <div class="col-md-4 animate-box">
-        <div class="event-entry">
-            <div class="desc">
-                <p class="meta"><span class="day">19</span><span class="month">Apr</span></p>
-                <p class="organizer"><span>Organized by:</span> <span>Noah Henderson</span></p>
-                <h2><a href="event.html">Karate at Robust Gym</a></h2>
-            </div>
-            <div class="location">
-                <span class="icon"><i class="icon-map"></i></span>
-                <p>291 South 21th Street, Suite 721 New York NY 10016</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 animate-box">
-        <div class="event-entry">
-            <div class="desc">
-                <p class="meta"><span class="day">19</span><span class="month">Apr</span></p>
-                <p class="organizer"><span>Organized by:</span> <span>Noah Henderson</span></p>
-                <h2><a href="event.html">World Yoga Day at Robust Gymnasium</a></h2>
-            </div>
-            <div class="location">
-                <span class="icon"><i class="icon-map"></i></span>
-                <p>291 South 21th Street, Suite 721 New York NY 10016</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 animate-box">
-        <div class="event-entry">
-            <div class="desc">
-                <p class="meta"><span class="day">19</span><span class="month">Apr</span></p>
-                <p class="organizer"><span>Organized by:</span> <span>Noah Henderson</span></p>
-                <h2><a href="event.html">1st Anniversary of Robust Gym</a></h2>
-            </div>
-            <div class="location">
-                <span class="icon"><i class="icon-map"></i></span>
-                <p>291 South 21th Street, Suite 721 New York NY 10016</p>
-            </div>
-        </div>
-    </div>
+    {% endif %}
+    {% endfor %}
 </div>
