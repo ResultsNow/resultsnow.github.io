@@ -7,4 +7,4 @@ image: blog-1.jpg
 categories: blog
 ---
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+Even the moderately-powerful Pointing has no control about the blind texts it is an almost unorthographic life
