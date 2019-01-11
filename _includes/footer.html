@@ -61,7 +61,7 @@
 
             <div class="col-md-3 colorlib-widget">
                 <h4>Recent Post</h4>
-                {% for post in site.posts limit:3 %}
+                {% for post in site.categories.blog limit:3 %}
                 <div class="f-blog">
                     <a href="{{ post.url }}" class="blog-img" style="background-image: url('/images/{{ post.image }}');">
                     </a>
