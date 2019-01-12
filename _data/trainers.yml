@@ -1,16 +1,31 @@
-- name: KYLE FELTNER
-  specialty: Personal Trainer/Group Fitness Instructor
-  image: 269409_915360389921_2042785016_n.jpg
-
 - name: KAT MUELLER
-  specialty: Body Building Trainer
+  specialty: Owner/Certified Personal Trainer/Certified Group Fitness Instructor
   image: trainer-2.jpg
-
-- name: ALYSHA REED
-  specialty: Body Building Trainer
-  image: trainer-3.jpg
-
-- name: GEORGE COOPER
-  specialty: Body Building Trainer
+  
+- name: KYLE FELTNER
+  specialty: Certified Personal Trainer/Certified Group Fitness Instructor
+  image: 269409_915360389921_2042785016_n.jpg
+  
+- name: Katie Thomas
+  specialty: Certified Personal Trainer/Certified Group Fitness Instructor
   image: trainer-4.jpg
 
+- name: Ethan Goodrich
+  specialty: Certified Personal Trainer
+  image: trainer-3.jpg
+
+- name: Linda Holderness
+  specialty: Certified Group Fitness Instructor
+  image: trainer-3.jpg
+
+- name: Lisa Baker
+  specialty: Certified Yoga Instructor
+  image: trainer-3.jpg
+  
+- name: Jenny Zurad
+  specialty: Certified Yoga Instructor
+  image: trainer-3.jpg
+  
+- name: Stephanie Grant
+  specialty: Certified Yoga Instructor
+  image: trainer-3.jpg
