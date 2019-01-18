@@ -12,11 +12,11 @@
 
 - name: Ethan Goodrich
   specialty: Certified Personal Trainer
-  image: trainer-3.jpg
+  image: ethan.png
 
 - name: Linda Holderness
   specialty: Certified Group Fitness Instructor
-  image: trainer-3.jpg
+  image: linda.png
 
 - name: Lisa Baker
   specialty: Certified Yoga Instructor
