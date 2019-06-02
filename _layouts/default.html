@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html>
-	{% include head.html %}
-	<body>
-		
+{% include head.html %}
+
+<body>
+
 	<div class="colorlib-loader"></div>
 
 	<div id="page">
@@ -16,6 +17,7 @@
 						<div class="col-md-9 text-right menu-1">
 							<ul>
 								<li><a href="{{ '/' | relative_url }}">Home</a></li>
+								<li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
 								<li class="has-dropdown">
 									<a href="{{ '/classes/' | relative_url }}">Classes</a>
 									<ul class="dropdown">
@@ -26,30 +28,28 @@
 										<li><a href="#body-building">Body Building</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ '/schedule/' | relative_url }}">Schedule</a></li>
-								<li><a href="{{ '/trainers/' | relative_url }}">Trainers</a></li>
+								<li><a href="{{ '/trainers/' | relative_url }}">Personal Training</a></li>
+								<li><a href="{{ '/schedule/' | relative_url }}">Results on the Go</a></li>
 								<li><a href="{{ '/events/' | relative_url }}">Events</a></li>
-								<li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
 								<li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-								<li class="btn-cta"><a href="{{ '/#' | relative_url }}"><span><i class="icon-cart"></i></span></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</nav>
-		
+
 		{{ content }}
-	
+
 		{% include footer.html %}
 	</div>
 
 	<div class="gototop js-top">
 		<a href="{{ '/#' | relative_url }}" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
-	
+
 	{% include scripts.html %}
 
-	</body>
-</html>
+</body>
 
+</html>
