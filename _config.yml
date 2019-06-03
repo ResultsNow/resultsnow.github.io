@@ -19,6 +19,11 @@ city: "Union"
 state: "KY"
 zipcode: "41091"
 
+ifttt:
+    key: czK6TzHRYCPhTdiXzioxb7
+    contact_event: contact_resultsnow
+    mailer_event: resultsnow_mailer
+
 # Use this for production
 sass:
     sass_dir: _sass
