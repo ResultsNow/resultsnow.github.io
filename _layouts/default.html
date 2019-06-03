@@ -12,12 +12,14 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3">
-							<div id="colorlib-logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+							<div id="colorlib-logo">
+								<a href="{{ '/' | relative_url }}"><span
+										class="sr-only">{{ site.title }}</span>&nbsp;</a>
+							</div>
 						</div>
 						<div class="col-md-9 text-right menu-1">
 							<ul>
 								<li><a href="{{ '/' | relative_url }}">Home</a></li>
-								<li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
 								<li class="has-dropdown">
 									<a href="{{ '/classes/' | relative_url }}">Classes</a>
 									<ul class="dropdown">
@@ -28,10 +30,13 @@
 										<li><a href="#body-building">Body Building</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ '/trainers/' | relative_url }}">Personal Training</a></li>
-								<li><a href="{{ '/schedule/' | relative_url }}">Results on the Go</a></li>
+								<li><a href="{{ '/schedule/' | relative_url }}">Schedule</a></li>
+								<li><a href="{{ '/trainers/' | relative_url }}">Trainers</a></li>
 								<li><a href="{{ '/events/' | relative_url }}">Events</a></li>
+								<li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
 								<li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+								<li class="btn-cta"><a href="{{ '/#' | relative_url }}"><span><i
+												class="icon-cart"></i></span></a></li>
 							</ul>
 						</div>
 					</div>
