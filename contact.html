@@ -11,7 +11,7 @@ permalink: /contact/
                 <h2>Contact Information</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li><span><i class="icon-location-2"></i></span> {{ site.street1 }}, {{ site.city }}, {{
                                 site.state }} {{ site.zipcode }}</li>
                             <li><span><i class="icon-phone3"></i></span> <a href="tel://{{ site.phone}}">+ {{
@@ -19,25 +19,8 @@ permalink: /contact/
                             <li><span><i class="icon-paperplane"></i></span> <a href="mailto:{{ site.email }}">{{
                                     site.email }}</a></li>
                             <li><span><i class="icon-globe"></i></span> <a href="{{ site.url }}">{{ site.url }}</a></li>
+                            <li><span><i class="icon-facebook2"></i></span> <a href="https://facebook.com/{{ site.facebook }}/">{{ site.facebook }}</a></li>
                         </ul>
-                        <div class="contact-info-wrap-flex">
-                            <div class="con-info">
-                                <p><span><i class="icon-location-2"></i></span> {{ site.street1 }} <br> {{ site.city }}
-                                    {{ site.state }} {{ site.zipcode }}</p>
-                            </div>
-                            <div class="con-info">
-                                <p><span><i class="icon-phone3"></i></span> <a href="tel://{{ site.phone}}">+ {{
-                                        site.phone }}</a></p>
-                            </div>
-                            <div class="con-info">
-                                <p><span><i class="icon-paperplane"></i></span> <a href="mailto:{{ site.email }}">{{
-                                        site.email }}</a></p>
-                            </div>
-                            <div class="con-info">
-                                <p><span><i class="icon-globe"></i></span> <a href="{{ site.url }}">{{ site.url }}</a>
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
