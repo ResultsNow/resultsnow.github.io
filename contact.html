@@ -19,7 +19,8 @@ permalink: /contact/
                             <li><span><i class="icon-paperplane"></i></span> <a href="mailto:{{ site.email }}">{{
                                     site.email }}</a></li>
                             <li><span><i class="icon-globe"></i></span> <a href="{{ site.url }}">{{ site.url }}</a></li>
-                            <li><span><i class="icon-facebook2"></i></span> <a href="https://facebook.com/{{ site.facebook }}/">{{ site.facebook }}</a></li>
+                            <li><span><i class="icon-facebook2"></i></span> <a
+                                    href="https://facebook.com/{{ site.facebook }}/">{{ site.facebook }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -71,7 +72,7 @@ permalink: /contact/
                             });
 
                             XHR.open("POST",
-                                "https://maker.ifttt.com/trigger/contact_resultsnow/with/key/czK6TzHRYCPhTdiXzioxb7"
+                                "https://maker.ifttt.com/trigger/{{ site.ifttt.event }}/with/key/{{ site.ifttt.key }}"
                             );
 
                             XHR.send(FD);
