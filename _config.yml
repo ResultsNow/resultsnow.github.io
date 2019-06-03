@@ -20,8 +20,9 @@ state: "KY"
 zipcode: "41091"
 
 ifttt:
-    event: "contact_resultsnow"
-    key: "czK6TzHRYCPhTdiXzioxb7"
+    key: czK6TzHRYCPhTdiXzioxb7
+    contact_event: contact_resultsnow
+    mailer_event: resultsnow_mailer
 
 # Use this for production
 sass:

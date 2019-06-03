@@ -27,7 +27,7 @@ permalink: /contact/
             </div>
             <div class="col-md-10 col-md-offset-1 animate-box">
                 <h2>Get In Touch</h2>
-                <form id="contact-us">
+                <form id="{{ site.ifttt.contact_event }}">
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="sr-only" for="value1">Name</label>
@@ -72,13 +72,13 @@ permalink: /contact/
                             });
 
                             XHR.open("POST",
-                                "https://maker.ifttt.com/trigger/{{ site.ifttt.event }}/with/key/{{ site.ifttt.key }}"
+                                "https://maker.ifttt.com/trigger/{{ site.ifttt.contact_event }}/with/key/{{ site.ifttt.key }}"
                             );
 
                             XHR.send(FD);
                         }
 
-                        var form = document.getElementById("contact-us");
+                        var form = document.getElementById("{{ site.ifttt.contact_event }}");
 
                         form.addEventListener("submit", function (event) {
                             event.preventDefault();
@@ -91,4 +91,14 @@ permalink: /contact/
         </div>
     </div>
 </div>
-<div id="map" class="colorlib-map"></div>
+<div id="map" class="colorlib-map">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 animate-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775.5410430221244!2d-84.67213437073941!3d38.96591914145849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841c6bed79bdd43%3A0x6407667f9d2a03a1!2sFeltner+Personal+Training!5e0!3m2!1sen!2sus!4v1559566522044!5m2!1sen!2sus"
+                    width="750" height="563" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
