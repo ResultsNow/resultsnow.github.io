@@ -63,11 +63,7 @@ permalink: /contact/
 
                             var FD = new FormData(form);
 
-                            XHR.addEventListener("load", function (event) {
-                                $('#messages').addClass('show');
-                            });
-
-                            XHR.addEventListener("error", function (event) {
+                            XHR.addEventListener("loadend", function (event) {
                                 $('#messages').addClass('show');
                             });
 
