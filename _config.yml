@@ -6,7 +6,7 @@ description: ""
 future: true
 
 # Social
-socialimg: /img/social.jpg # be sure to change this image
+socialimg: /images/social.jpg # be sure to change this image
 facebook: ResultsNowLLC
 twitter: twusername
 instagram: igusername
@@ -18,6 +18,11 @@ street1: "1597 Cavalry Drive"
 city: "Union"
 state: "KY"
 zipcode: "41091"
+
+ifttt:
+    key: czK6TzHRYCPhTdiXzioxb7
+    contact_event: contact_resultsnow
+    mailer_event: resultsnow_mailer
 
 # Use this for production
 sass:
