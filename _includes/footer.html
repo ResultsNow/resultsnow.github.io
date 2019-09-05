@@ -1,5 +1,5 @@
-<div id="colorlib-subscribe" class="subs-img"
-    style="background-image: url({{ '/images/img_bg_2.jpg' | relative_url }});" data-stellar-background-ratio="0.5">
+<div id="colorlib-subscribe" class="subs-img" style="background-image: url(/images/img_bg_2.jpg);"
+    data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -15,7 +15,7 @@
                         <form id="{{ site.ifttt.mailer_event }}" class="form-inline qbstp-header-subscribe">
                             <div class="col-three-forth">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="email" placeholder="Enter your email">
+                                    <input type="text" class="form-control" name="value1" id="email" placeholder="Enter your email">
                                 </div>
                             </div>
                             <div class="col-one-third">
@@ -24,6 +24,11 @@
                                 </div>
                             </div>
                         </form>
+                        <div id="messages" class="alert alert-success hide" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <span id="result">Thank you!</span>
+                        </div>
                         <script>
                             window.addEventListener("load", function () {
                                 function sendData() {
@@ -31,11 +36,7 @@
 
                                     var FD = new FormData(form);
 
-                                    XHR.addEventListener("load", function (event) {
-                                        $('#messages').addClass('show');
-                                    });
-
-                                    XHR.addEventListener("error", function (event) {
+                                    XHR.addEventListener("loadend", function (event) {
                                         $('#messages').addClass('show');
                                     });
 
