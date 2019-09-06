@@ -1,0 +1,13 @@
+$brand-black: #000;
+
+#colorlib-testimony {
+    .testimony-slide {
+        span {
+            color: $brand-black;
+        }
+
+        blockquote {
+            color: $brand-black;
+        }
+    }
+}

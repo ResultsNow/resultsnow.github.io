@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+        <h2>What People Says</h2>
+        <h3>Success Stories</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="row animate-box">
+            <div class="owl-carousel1">
+                {% for testimonial in site.data.testimonials %}
+                <div class="item">
+                    <div class="testimony-slide">
+                        <div class="testimony-wrap">
+                            <blockquote>
+                                <span>{{ testimonial.name }}</span>
+                                <p>{{ testimonial.quote }}</p>
+                            </blockquote>
+                            <div class="figure-img"
+                                style="background-image: url('{{ realtive_url }}/images/{{ testimonial.image }}');">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

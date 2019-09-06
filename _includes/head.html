@@ -8,21 +8,26 @@
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}"/>
-	<meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}"/>
-	<meta property="og:url" content="{{site.url}}{{page.url}}"/>
-	<meta property="og:site_name" content="{{ site.title }} "/>
-	<meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}"/>
-	<meta name="twitter:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}" />
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title"
+		content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}" />
+	<meta property="og:image"
+		content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}" />
+	<meta property="og:url" content="{{site.url}}{{page.url}}" />
+	<meta property="og:site_name" content="{{ site.title }} " />
+	<meta property="og:description"
+		content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}" />
+	<meta name="twitter:title"
+		content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}" />
 	<meta name="twitter:image" content="{{site.url}}{{site.socialimg}}" />
 	<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}" />
+	<meta name="twitter:description"
+		content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}" />
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -39,12 +44,20 @@
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/owl.theme.default.min.css">
-	
+
 	<!-- Flaticons  -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/fonts/flaticon/font/flaticon.css">
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+
+	{% for css in layout.css %}
+	<link rel="stylesheet" type="text/css" href="/css/{{ css }}" />
+	{% endfor %}
+
+	{% for css in page.css %}
+	<link rel="stylesheet" type="text/css" href="/css/{{ css }}" />
+	{% endfor %}
 
 	<!-- Modernizr JS -->
 	<script src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
@@ -53,4 +66,4 @@
 	<script href="{{ site.baseurl }}/js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
+</head>
