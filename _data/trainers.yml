@@ -1,6 +1,6 @@
 - name: Kat Mueller
   specialty: Owner/Certified Personal Trainer/Certified Group Fitness Instructor
-  image: Kat profile.png
+  image: 
   
 - name: Alisa Hampton
   specialty: Certified Personal Trainer/Certified Group Fitness Instructor/Certified Yoga Instructor
@@ -20,7 +20,7 @@
 
 - name: Linda Holderness
   specialty: Certified Group Fitness Instructor
-  image: Linda profile.png
+  image: LInda profile.png
   
 - name: Melissa Chapman
   specialty: Certified Group Fitness Instructor
