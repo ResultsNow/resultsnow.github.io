@@ -1,14 +1,18 @@
-- name: KAT MUELLER
+- name: Kat Mueller
   specialty: Owner/Certified Personal Trainer/Certified Group Fitness Instructor
-  image: trainer-2.jpg
+  image: kar profile.png
   
-- name: KYLE FELTNER
-  specialty: Certified Personal Trainer/Certified Group Fitness Instructor
-  image: 269409_915360389921_2042785016_n.jpg
+- name: Alisa Hampton
+  specialty: Certified Personal Trainer/Certified Group Fitness Instructor/Certified Yoga Instructor
+  image: Alisa profile.png
   
-- name: Katie Thomas
-  specialty: Certified Personal Trainer/Certified Group Fitness Instructor
-  image: Katie profile.jpg
+- name: Daryl Perry
+  specialty: Certified Personal Trainer/Certified Nutritionist
+  image: Daryl profile.png
+
+- name: Jimmy Mounce
+  specialty: Certified Personal Trainer
+  image: 
 
 - name: Ethan Goodrich
   specialty: Certified Personal Trainer
@@ -16,16 +20,12 @@
 
 - name: Linda Holderness
   specialty: Certified Group Fitness Instructor
-  image: linda.png
-
+  image: Linda profile.png
+  
+- name: Melissa Chapman
+  specialty: Certified Group Fitness Instructor
+  image: 
+  
 - name: Lisa Baker
   specialty: Certified Yoga Instructor
   image: Lisa profile.jpg
-  
-- name: Jenny Zurad
-  specialty: Certified Yoga Instructor
-  image: jenny profile.jpg
-  
-- name: Stephanie Grant
-  specialty: Certified Yoga Instructor
-  image: trainer-3.jpg
