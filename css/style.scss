@@ -1,8 +1,10 @@
----
----
+--- 
+--- 
 
 @import "css/style";
 
-.owl-dot span {
-    background: #323534;
+#colorlib-testimony {
+    .owl-theme .owl-dots .owl-dot span {
+        background: #323534;
+    }
 }
