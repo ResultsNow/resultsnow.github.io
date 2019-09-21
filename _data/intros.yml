@@ -1,0 +1,17 @@
+- focus: Body Building
+  description: Which roasted parts of sentences fly into your mouth.
+  image: intro-img-1.jpg
+  price: $25.00 
+  price-interval: month
+  
+- focus: Yoga Program
+  description: Which roasted parts of sentences fly into your mouth.
+  image: intro-img-2.jpg
+  price: $25.00 
+  price-interval: month
+  
+- focus: Aerobics Classes
+  description: Which roasted parts of sentences fly into your mouth.
+  image: intro-img-3.jpg
+  price: $25.00 
+  price-interval: month
