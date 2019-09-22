@@ -4,31 +4,31 @@ monday:
   program: Muscle Endurance
   trainer: Kat
   type: Strength
-  icon: flaticon-weightlifting
+  icon: weightlifting
 
 - time: 9:00 AM - 10:00 AM
   program: FitMix
   trainer: Linda
   type: Mix
-  icon: flaticon-exercise-2
+  icon: exercise-2
 
 - time: 10:15 AM - 11:30 AM
   program: Hatha Yoga
   trainer: Jenny
   type: Yoga
-  icon: flaticon-meditation
+  icon: meditation
 
 - time: 6:00 PM - 7:00 PM
   program: Strength Camp
   trainer: Linda
   type: Strength
-  icon: flaticon-weightlifting
+  icon: weightlifting
 
 - time: 7:00 PM - 8:00 PM
   program: Cardio Kickboxing
   trainer: Kat
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
 
 tuesday:
 
@@ -36,25 +36,25 @@ tuesday:
   program: Burn Bootcamp
   trainer: Linda
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
 
 - time: 9:00 AM - 10:00 AM
   program:  Cardio Blast
   trainer: Kyle
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
   
 - time: 5:30 PM - 6:30 PM
   program: Bootcamp
   trainer: Linda
   type: Mix
-  icon: flaticon-exercise-2
+  icon: exercise-2
 
 - time: 6:30 PM - 7:30 PM
   program: Hatha Yoga
   trainer: Jenny
   type: Yoga
-  icon: flaticon-meditation
+  icon: meditation
 
 wednesday:
 
@@ -62,25 +62,25 @@ wednesday:
   program: Bootcamp
   trainer: Kyle
   type: Mix
-  icon: flaticon-exercise-2
+  icon: exercise-2
 
 - time: 9:00 AM - 10:00 AM
   program: Barre
   trainer: Kat
   type: Strength
-  icon: flaticon-weightlifting
+  icon: weightlifting
 
 - time: 6:00 PM - 7:00 PM
   program: Beats
   trainer: Kyle
   type: Mix
-  icon: flaticon-exercise-2
+  icon: exercise-2
 
 - time: 7:00 PM - 8:00 PM
   program: Burn Bootcamp
   trainer: Linda
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
 
 thursday:
 
@@ -88,25 +88,25 @@ thursday:
   program: Speed & Agility
   trainer: Katie
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
 
 - time: 9:00 AM - 10:00 AM
   program: Burn Bootcamp
   trainer: Linda
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
 
 - time: 5:30 PM - 6:30 PM
   program: FitMix
   trainer: Linda
   type: Mix
-  icon: flaticon-exercise-2
+  icon: exercise-2
 
 - time: 6:30 PM - 7:30 PM
   program: Slow Vinyasa Flow Yoga
   trainer: Lisa
   type: Yoga
-  icon: flaticon-meditation
+  icon: meditation
 
 friday:
 
@@ -114,19 +114,19 @@ friday:
   program: Strength Camp
   trainer: Kyle
   type: Strength
-  icon: flaticon-weightlifting
+  icon: weightlifting
 
 - time: 9:00 AM - 10:00 AM
   program: KettleBell & More
   trainer: Linda
   type: Strength 
-  icon: flaticon-weightlifting
+  icon: weightlifting
 
 - time: 10:15 AM - 11:30 AM
   program: Hatha Yoga
   trainer: Jenny
   type: Yoga
-  icon: flaticon-meditation
+  icon: meditation
 
 saturday:
 
@@ -134,13 +134,13 @@ saturday:
   program: Accumulation Bootcamp
   trainer: Kat
   type: Mix
-  icon: flaticon-exercise-2
+  icon: exercise-2
 
 - time: 9:15 AM - 10:30 AM
   program: Ashtanga Yoga
   trainer: Stephanie
   type: Yoga
-  icon: flaticon-meditation
+  icon: meditation
 
 sunday:
 
@@ -148,4 +148,4 @@ sunday:
   program: Cardio Core
   trainer: Linda
   type: Cardio
-  icon: flaticon-gym
+  icon: gym
