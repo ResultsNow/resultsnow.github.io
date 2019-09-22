@@ -4,8 +4,24 @@ title: Classes
 permalink: /classes/
 ---
 
+<div id="colorlib-schedule" class="colorlib-schedule colorlib-light-grey">
+    <div class="container">
+        {% include schedule-include.html %}
+    </div>
+</div>
+
 <div class="colorlib-classes">
     <div class="container">
-        {% include classes-include.html %}        
+        {% for class in site.data.classes %}
+        <div class="col-md-4 animate-box">
+            <div class="classes">
+                <div class="classes-img" style="background-image: url(/images/{{ class.image }});"></div>
+                <div class="desc">
+                    <h3>{{ class.title }}</h3>
+                    <p>{{ class.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
