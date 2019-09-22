@@ -93,11 +93,20 @@ fulltitle: "Results Now | Welcome!"
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
         <h2>Our Classes</h2>
-        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
-          One day however a small line of blind text by the name</p>
       </div>
     </div>
-    {% include classes-include.html %}
+    {% for class in site.data.classes limit:3 %}
+    <div class="classes-img" style="background-image: url(/images/{{ class.image }});">&nbsp;</div>
+    <div class="col-md-4 animate-box">
+      <div class="classes">
+        <div class="desc">
+          <h3>{{ class.title }}</h3>
+          <p>{{ class.description }}</p>
+          <p><a href="/classes" class="btn-learn">Learn More <i class="icon-arrow-right3"></i></a></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </div>
 

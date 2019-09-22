@@ -1,8 +1,6 @@
 <div class="row">
     <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
         <h2>Our Class Schedule</h2>
-        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
-            life One day however a small line of blind text by the name</p>
     </div>
 </div>
 <div class="row">
@@ -28,7 +26,7 @@
                     {% for item in site.data.schedule.[label] %}
                     {% assign mod4 = forloop.index | modulo: 4 %}
                     <div class="entry-forth">
-                        <p class="icon"><span><i class="{{ item.icon }}"></i></span></p>
+                        <p class="icon"><span><i class="flaticon-{{ item.icon }}"></i></span></p>
                         <p class="time"><span>{{ item.time }}</span></p>
                         <h3>{{ item.program }}</h3>
                         <p class="trainer"><span>{{ item.trainer }}</span></p>
