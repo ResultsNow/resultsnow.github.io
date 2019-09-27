@@ -1,15 +1,15 @@
-- title: Cardio Program
-  description: Separated they live in Bookmarksgrove right at the coast of the Semantics
-  icon: gym
-
-- title: Body Building
+- title: Strength 
   description: Separated they live in Bookmarksgrove right at the coast of the Semantics
   icon: weightlifting
 
-- title: Karate Classes
+- title: Cardio
   description: Separated they live in Bookmarksgrove right at the coast of the Semantics
-  icon: martial-arts
+  icon: gym
 
-- title: Boxing Program
+- title: Mix of Strength & Cardio 
   description: Separated they live in Bookmarksgrove right at the coast of the Semantics
-  icon: gloves
+  icon: exercise-2
+
+- title: Yoga
+  description: Separated they live in Bookmarksgrove right at the coast of the Semantics
+  icon: meditation
