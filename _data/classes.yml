@@ -8,7 +8,7 @@
   icon: meditation
   image: classes-5.jpg
   
-  - title: Advanced Weightlifting for Lean Muscle Gain
+- title: Advanced Weightlifting for Lean Muscle Gain
   description: Multiple muscle group lifting to gain hypertropy and muscle endurance for a lean muscle gain.
   icon: gym
   image: classes-7.jpg
@@ -23,7 +23,7 @@
   icon: exercise-2
   image: classes-7.jpg
   
-  - title: Cardio Core
+- title: Cardio Core
   description: A workout incorporating cardiovascular exercises with core exercises, mainly focusing on the abdominals, obliques, shoulders, and glutes.
   icon: gym
   image: classes-1.jpg
