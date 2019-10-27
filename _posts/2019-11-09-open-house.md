@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open House at Results Now
-date: 2019-11-09 19:00:00 -0500
+date: 2019-11-09 14:00:00 -0500
 organizer: Kat Mueller
 location: 1597 Cavalry Dr. Union KY  41091
 excerpt_separator: <!--more-->
