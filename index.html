@@ -95,10 +95,10 @@ fulltitle: "Results Now | Welcome!"
       </div>
     </div>
     {% for class in site.data.classes limit:3 %}
-    <div class="classes-img" style="background-image: url(/images/{{ class.image }});">&nbsp;</div>
     <div class="col-md-4 animate-box">
       <div class="classes">
         <div class="desc">
+          <div class="classes-img" style="background-image: url(/images/{{ class.image }});">&nbsp;</div>
           <h3>{{ class.title }}</h3>
           <p>{{ class.description }}</p>
           <p><a href="/classes" class="btn-learn">More Classes <i class="icon-arrow-right3"></i></a></p>
