@@ -2,7 +2,7 @@
   description: A cardio martial arts workout based on Boxing, Kickboxing, Karate, Muay Thai, Capoeira, Jiu-Jitsu, and Thai Chi moves that may use hand pads, strike pads, and/or Muay Thai pads.
   icon: martial-arts
   image: classes-9.jpg
-
+  
 - title: Beginner Yoga
   description: A vinyasa style yoga for the beginner that connects the movement with the breath using basic yoga poses.
   icon: meditation
@@ -17,7 +17,7 @@
   description: A core class focusing on the body to improve strength, posture, flexibility, balance, stability, and muscle endurance.
   icon: gym
   image: classes-7.jpg
-
+  
 - title: Advanced Bootcamp
   description: Strength, plyometric, cardiovascular, and functional training designed to improve strength and fitness.
   icon: exercise-2
@@ -27,17 +27,17 @@
   description: A workout incorporating cardiovascular exercises with core exercises, mainly focusing on the abdominals, obliques, shoulders, and glutes.
   icon: gym
   image: classes-1.jpg
-
+  
 - title: Weightlifting 101
   description: A beginner weight lifting class to learn the basics of lifting including proper form, breathing techniques, and sets & repetitions.
   icon: gym
   image: classes-1.jpg
-
+  
 - title: Old School Bootcamp
   description: Going back to the basics and using bodyweight and cardio training to enhance strength and weight loss.
   icon: exercise-2
   image: classes-8.jpg
-
+  
 - title: Vinyasa Flow
   description: Yoga focusing on breathing through a slow dynamic flow from one posture to another.
   icon: meditation
