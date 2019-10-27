@@ -1,83 +1,45 @@
-- title: Cardio Core
-  description: A workout incorporating cardiovascular exercises with core exercises, mainly focusing on the abdominals, obliques, shoulders, and glutes.
-  icon: gym
-  image: classes-1.jpg
-
-- title: Muscle Flow
-  description: A fast-paced cardiovascular infused core class designed with resistance training to gain strength and stretching to gain flexibility.
-  icon: weightlifting
-  image: classes-6.jpg
-
 - title: Cardio Kickboxing
   description: A cardio martial arts workout based on Boxing, Kickboxing, Karate, Muay Thai, Capoeira, Jiu-Jitsu, and Thai Chi moves that may use hand pads, strike pads, and/or Muay Thai pads.
   icon: martial-arts
   image: classes-9.jpg
 
-- title: Ashtanga Yoga
-  description: A vinyasa yoga with a specific series of movements done in the same order to connect the movement with the breath.
+- title: Beginner Yoga
+  description: A vinyasa style yoga for the beginner that connects the movement with the breath using basic yoga poses.
   icon: meditation
   image: classes-5.jpg
+  
+  - title: Advanced Weightlifting for Lean Muscle Gain
+  description: Multiple muscle group lifting to gain hypertropy and muscle endurance for a lean muscle gain.
+  icon: gym
+  image: classes-7.jpg
   
 - title: Barre
   description: A core class focusing on the body to improve strength, posture, flexibility, balance, stability, and muscle endurance.
   icon: gym
   image: classes-7.jpg
 
-- title: Beats
-  description: Dance mixed with strength training and choreographed to the beat of past and present music.
-  icon: exercise-2
-  image: classes-1.jpg
-
-- title: Bootcamp
+- title: Advanced Bootcamp
   description: Strength, plyometric, cardiovascular, and functional training designed to improve strength and fitness.
   icon: exercise-2
   image: classes-7.jpg
-
-- title: Burn Bootcamp
-  description: A high intensity interval cardiovascular workout designed to create a high caloric burn.
-  icon: gym
-  image: classes-7.jpg
-
-- title: Cardio Blast
-  description: A cardiovascular and functional training interval class that involves equipment to target and improve core muscles used in everyday activities.
+  
+  - title: Cardio Core
+  description: A workout incorporating cardiovascular exercises with core exercises, mainly focusing on the abdominals, obliques, shoulders, and glutes.
   icon: gym
   image: classes-1.jpg
 
-- title: Fit-Mix
-  description: Any combination of classes listed to create a different, fun, and effective workout.
+- title: Weightlifting 101
+  description: A beginner weight lifting class to learn the basics of lifting including proper form, breathing techniques, and sets & repetitions.
+  icon: gym
+  image: classes-1.jpg
+
+- title: Old School Bootcamp
+  description: Going back to the basics and using bodyweight and cardio training to enhance strength and weight loss.
   icon: exercise-2
   image: classes-8.jpg
 
-- title: Hatha Yoga
-  description: Yoga focused mainly on breath work, alignment, flexibility, and relaxation.
-  icon: meditation
-  image: classes-5.jpg
-
-- title: Kettle-Bell &amp; More
-  description: Ballistic exercises that combine cardiovascular, strength, and flexibility training using a kettle-bell.
-  icon: weightlifting
-  image: classes-4.jpg
-
-- title: Muscle Endurance
-  description: A high repetition lower weight strength training class to enhance muscle endurance.
-  icon: weightlifting
-  image: classes-6.jpg
-
-- title: Speed &amp; Agility
-  description: A cardiovascular class designed to gain speed and agility using ladders, cones, resistance bands, and other equipment.
-  icon: gym
-  image: classes-8.jpg
-
-- title: Strength Camp
-  description: Strength training that incorporates single and compound movements progressively to promote strength and muscle hypertrophy.
-  icon: weightlifting
-  image: classes-6.jpg
-
-- title: Vinyasa Slow Flow
+- title: Vinyasa Flow
   description: Yoga focusing on breathing through a slow dynamic flow from one posture to another.
   icon: meditation
   image: classes-5.jpg
 
-- title: Tot-ercise
-  description: A fun half hour class for tots ages 3,4, &amp; 5 done with a parent or guardian to introduce exercise into their lives.
-  icon: gym
