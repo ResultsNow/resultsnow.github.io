@@ -1,139 +1,139 @@
 monday:
 
-- time: 5:30 AM - 6:30 AM
-  program: Muscle Endurance
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Strength
   icon: weightlifting
 
-- time: 9:00 AM - 10:00 AM
-  program: Cardio Kickboxing
-  trainer: Alisa
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
-- time: 6:00 PM - 7:00 PM
-  program: Muscle Flow
-  trainer: Kat
+- time: 
+  program:
+  trainer: 
   type: Mix
   icon: exercise-2
 
-- time: 7:00 PM - 8:00 PM
-  program: Burn
-  trainer: Linda
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
 tuesday:
 
-- time: 5:30 AM - 6:30 AM
-  program: Endurance Running
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
-- time: 8:00 AM - 9:00 AM
-  program:  Cardio Blast
-  trainer: Alisa
+- time: 
+  program:  
+  trainer: 
   type: Cardio
   icon: gym
   
-- time: 5:30 PM - 6:30 PM
-  program: Cardio Core
-  trainer: Linda
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
-- time: 6:30 PM - 7:30 PM
-  program: Stretch
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Yoga
   icon: meditation
 
 wednesday:
 
-- time: 5:30 AM - 6:30 AM
-  program: Bootcamp
-  trainer: Linda
+- time: 
+  program: 
+  trainer: 
   type: Mix
   icon: exercise-2
 
-- time: 9:00 AM - 10:00 AM
-  program: Speed & Agility
-  trainer: Linda
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
-- time: 6:00 PM - 7:00 PM
-  program: Muscle Quake
-  trainer: Kat
+- time: 
+  program:
+  trainer: 
   type: Strength
   icon: weightlifting
 
-- time: 7:00 PM - 8:00 PM
-  program: Cardio Kickboxing
-  trainer: Melissa
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
 thursday:
 
-- time: 5:30 AM - 6:30 AM
-  program: Speed & Agility
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
 
-- time: 8:00 AM - 9:00 AM
-  program: Bootcamp
-  trainer: Linda
+- time:
+  program: 
+  trainer: 
   type: Mix
   icon: exercise-2
 
-- time: 5:30 PM - 6:30 PM
-  program: Strength Camp
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Strength
   icon: weightlifting
 
-- time: 6:30 PM - 7:30 PM
-  program: Slow Vinyasa Flow Yoga
-  trainer: Lisa
+- time: 
+  program: 
+  trainer: 
   type: Yoga
   icon: meditation
 
 friday:
 
-- time: 5:30 AM - 6:30 AM
-  program: Strength Camp
-  trainer: Alisa
+- time: 
+  program: 
+  trainer: 
   type: Strength
   icon: weightlifting
 
-- time: 9:00 AM - 10:00 AM
-  program: Step
-  trainer: Linda
+- time: 
+  program: 
+  trainer: 
   type: Cardio 
   icon: gym
 
 saturday:
 
-- time: 8:00 AM - 9:15 AM
-  program: Accumulation Bootcamp
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Mix
   icon: exercise-2
 
-- time: 9:15 AM - 10:30 AM
-  program: Vinyasa Yoga
-  trainer: Kat
+- time: 
+  program: 
+  trainer: 
   type: Yoga
   icon: meditation
 
 sunday:
 
-- time: 9:00 AM - 10:00 AM
-  program: Step
-  trainer: Linda
+- time: 
+  program: 
+  trainer: 
   type: Cardio
   icon: gym
