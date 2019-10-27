@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "World Yoga Day at Results Now"
-date: 2019-05-20 20:54:10 -0500
-organizer: Noah Henderson
-location: 291 South 21th Street, Suite 721 New York NY 10016
+title: Open House at Results Now
+date: 2019-11-09 19:00:00 -0500
+organizer: Kat Mueller
+location: 1597 Cavalry Dr. Union KY  41091
 excerpt_separator: <!--more-->
 categories: events
 ---
 <!--more-->
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+Enjoy some wine and cheese and learn about the new and upcoming small group classes we are offering.
