@@ -2,9 +2,9 @@
 layout: post
 title: "Need workout motivation"
 date: 2018-09-23 20:54:10 -0500
-author: Noah Henderson
+author: Kat Mueller
 image: blog-6.jpg
 categories: blog
 ---
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+Come see us at Results Now.  We can help you, educate you, motivate you to be a healthier you.  
