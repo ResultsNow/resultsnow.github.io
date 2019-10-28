@@ -10,17 +10,17 @@
   
 - title: Advanced Weightlifting for Lean Muscle
   description: Multiple muscle group lifting to gain hypertrophy and muscle endurance for a lean muscle gain.
-  icon: gym
+  icon:
   image: advancedlifting.jpg
   
 - title: Barre
   description: A core class focusing on the lower body to improve strength, posture, flexibility, balance, stability, and muscle endurance.
-  icon: gym
+  icon:
   image: barre.jpg
   
 - title: Advanced Bootcamp
   description: Strength, plyometric, cardiovascular, and functional training designed to improve strength and fitness.
-  icon: exercise-2
+  icon: 
   image: plyometric-exercises.jpg
   
 - title: Cardio Core
@@ -35,7 +35,7 @@
   
 - title: Old School Bootcamp
   description: Going back to the basics and using bodyweight and cardio training to enhance strength and weight loss.
-  icon: exercise-2
+  icon: 
   image: JumpingJack-StarJump_2.jpg
   
 - title: Vinyasa Flow
