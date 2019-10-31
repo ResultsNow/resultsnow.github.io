@@ -13,6 +13,11 @@
   icon: gym
   image: advancedlifting.jpg
   
+- title: Cardio Core
+  description: A workout incorporating cardiovascular exercises with core exercises, mainly focusing on the abdominals, obliques, shoulders, and glutes.
+  icon: gym
+  image: classes-7.jpg
+  
 - title: Barre
   description: A core class focusing on the lower body to improve strength, posture, flexibility, balance, stability, and muscle endurance.
   icon: gym
@@ -22,11 +27,6 @@
   description: Strength, plyometric, cardiovascular, and functional training designed to improve strength and fitness.
   icon: gym
   image: plyometric-exercises.jpg
-  
-- title: Cardio Core
-  description: A workout incorporating cardiovascular exercises with core exercises, mainly focusing on the abdominals, obliques, shoulders, and glutes.
-  icon: gym
-  image: classes-7.jpg
   
 - title: Weightlifting 101
   description: A beginner weight lifting class to learn the basics of lifting including proper form, breathing techniques, and sets & repetitions.
