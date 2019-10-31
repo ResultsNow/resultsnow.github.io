@@ -20,7 +20,7 @@ state: "KY"
 zipcode: "41091"
 
 ifttt:
-    key: czK6TzHRYCPhTdiXzioxb7
+    key: brCOpFXZd5vbmEdV_VFyfua4ThrrhhuKdzWHctunHRY
     contact_event: contact_resultsnow
     mailer_event: resultsnow_mailer
 
