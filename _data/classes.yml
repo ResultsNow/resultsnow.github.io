@@ -1,7 +1,7 @@
 - title: Cardio Kickboxing
   description: A cardio martial arts workout based on Boxing, Kickboxing, Karate, Muay Thai, Capoeira, Jiu-Jitsu, and Thai Chi moves that may use hand pads, strike pads, and/or Muay Thai pads.
   icon: martial-arts
-  image: cardio-kickboxing.jpg
+  image: cardiokickboxing.jpg
   
 - title: Beginner Yoga
   description: A vinyasa style yoga for the beginner that connects the movement with the breath using basic yoga poses.
@@ -20,7 +20,7 @@
   
 - title: Advanced Bootcamp
   description: Strength, plyometric, cardiovascular, and functional training designed to improve strength and fitness.
-  icon: 
+  icon: gym
   image: plyometric-exercises.jpg
   
 - title: Cardio Core
@@ -35,11 +35,11 @@
   
 - title: Old School Bootcamp
   description: Going back to the basics and using bodyweight and cardio training to enhance strength and weight loss.
-  icon: 
-  image: JumpingJack-StarJump_2.jpg
+  icon: gym
+  image: 
   
 - title: Vinyasa Flow
   description: Yoga focusing on breathing through a slow dynamic flow from one pose to another.
   icon: meditation
-  image: classes-5.jpg
+  image: 
 
