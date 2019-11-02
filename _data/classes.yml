@@ -14,7 +14,7 @@
   image: classes-7.jpg
   
 - title: Cardio Kickboxing
-  description: A cardio martial arts workout based on Boxing, Kickboxing, Karate, Muay Thai, Capoeira, Jiu-Jitsu, and Thai Chi moves that may use hand pads, strike pads, and/or Muay Thai pads.
+  description: A cardio workout with boxing and kickboxing styles using basic combinations and drills that incorporate hitting pads and using punches, kicks, and knees to relieve stress. Boxing gloves are recommended. 
   icon: martial-arts
   image: cardiokickboxing.jpg
   
@@ -33,7 +33,7 @@
   icon: gym
   image: Plankphoto.jpg
   
-- title: Weightlifting 101
+- title: Foundational Weightlifting
   description: A beginner weight lifting class to learn the basics of lifting including proper form, breathing techniques, and sets & repetitions.
   icon: gym
   image: classes-1.jpg
