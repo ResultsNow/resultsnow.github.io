@@ -13,11 +13,6 @@
   icon: gym
   image: classes-7.jpg
   
-- title: Cardio Kickboxing
-  description: A cardio workout with boxing and kickboxing styles using basic combinations and drills that incorporate hitting pads and using punches, kicks, and knees to relieve stress.  Boxing gloves are recommended. 
-  icon: martial-arts
-  image: cardiokickboxing.jpg
-  
 - title: Barre
   description: A core class focusing on the lower body to improve strength, posture, flexibility, balance, stability, and muscle endurance.
   icon: gym
@@ -42,4 +37,8 @@
   description: Yoga focusing on breathing through a slow dynamic flow from one pose to another.
   icon: meditation
   image: vinyasaflow.JPG
-
+  
+- title: Cardio Kickboxing
+  description: A cardio workout with boxing and kickboxing styles using basic combinations and drills that incorporate hitting pads and using punches, kicks, and knees to relieve stress.  Boxing gloves are recommended. 
+  icon: martial-arts
+  image: cardiokickboxing.jpg
