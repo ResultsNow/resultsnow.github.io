@@ -1,139 +1,114 @@
 monday:
 
-- time: 
-  program: 
-  trainer: 
-  type: Strength
-  icon: weightlifting
+- time: 6:00 AM
+  program: Yoga Basics
+  trainer: Alisa
+  type: Yoga
+  icon: Meditation
 
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
-
-- time: 
-  program:
-  trainer: 
+- time: 5:00 PM
+  program: Advanced Bootcamp
+  trainer: Ethan
   type: Mix
   icon: exercise-2
 
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
+- time: 6:30 PM
+  program:Advanced Weightlifting
+  trainer: Kat
+  type: Strength
+  icon: weightlifting
 
 tuesday:
 
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
-
-- time: 
-  program:  
-  trainer: 
-  type: Cardio
-  icon: gym
-  
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
-
-- time: 
-  program: 
-  trainer: 
-  type: Yoga
-  icon: meditation
-
-wednesday:
-
-- time: 
-  program: 
-  trainer: 
-  type: Mix
-  icon: exercise-2
-
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
-
-- time: 
-  program:
-  trainer: 
+- time: 5:00 AM
+  program: Advanced Weightlifting
+  trainer: Kat
   type: Strength
   icon: weightlifting
 
-- time: 
-  program: 
-  trainer: 
+- time: 10:30 AM
+  program: Vinyasa Flow 
+  trainer: Lisa
+  type: Yoga
+  icon: meditation
+  
+- time: 7:00 PM
+  program: Barre
+  trainer: Kat
+  type: Mix
+  icon: exercise-2
+
+wednesday:
+
+- time: 5:30 AM
+  program: Cardio Core
+  trainer: Alisa
+  type: Cardio
+  icon: gym
+
+- time: 9:00 AM
+  program: Barre
+  trainer: Kat
+  type: Mix
+  icon: exercise-2
+
+- time: 12:00 PM
+  program: Old School Bootcamp
+  trainer: Kat
+  type: Mix
+  icon: exercise-2
+
+- time: 6:30 PM
+  program: Cardio Kickboxing
+  trainer: Kat
   type: Cardio
   icon: gym
 
 thursday:
 
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
+- time: 5:30 AM
+  program: Foundations of Weightlifting
+  trainer: Kat
+  type: Strength
+  icon: weightlifting
 
-- time:
-  program: 
-  trainer: 
+- time: 11:30 AM
+  program:  Foundations of Weightlifting
+  trainer: Kat
+  type: Strength
+  icon: weightlifting
+
+- time: 6:00 PM
+  program: Old School Bootcamp
+  trainer: Kat
   type: Mix
   icon: exercise-2
 
-- time: 
-  program: 
-  trainer: 
-  type: Strength
-  icon: weightlifting
-
-- time: 
-  program: 
-  trainer: 
-  type: Yoga
-  icon: meditation
-
 friday:
 
-- time: 
-  program: 
-  trainer: 
-  type: Strength
-  icon: weightlifting
+- time: 5:00 AM
+  program: Cardio Kickboxing
+  trainer: Alisa
+  type: Cardio
+  icon: gym
 
-- time: 
-  program: 
-  trainer: 
+- time: 10:30 AM
+  program: Cardio Core
+  trainer: Kat
   type: Cardio 
   icon: gym
 
 saturday:
 
-- time: 
-  program: 
-  trainer: 
-  type: Mix
-  icon: exercise-2
-
-- time: 
-  program: 
-  trainer: 
+- time: 8:00 AM
+  program: Yoga Basics
+  trainer: Alisa
   type: Yoga
   icon: meditation
 
-sunday:
+- time: 12:00 PM
+  program: Advanced Bootcamp
+  trainer: Ethan
+  type: Mix
+  icon: exercise-2
 
-- time: 
-  program: 
-  trainer: 
-  type: Cardio
-  icon: gym
