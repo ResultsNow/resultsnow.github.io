@@ -13,7 +13,7 @@ monday:
   icon: exercise-2
 
 - time: 6:30 PM
-  program:Advanced Weightlifting
+  program: Advanced Weightlifting
   trainer: Kat
   type: Strength
   icon: weightlifting
@@ -73,7 +73,7 @@ thursday:
   icon: weightlifting
 
 - time: 11:30 AM
-  program:  Foundations of Weightlifting
+  program: Foundations of Weightlifting
   trainer: Kat
   type: Strength
   icon: weightlifting
