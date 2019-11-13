@@ -1,11 +1,10 @@
-
 monday:
 
 - time: 6:00 AM
   program: Yoga Basics
   trainer: Alisa
   type: Yoga
-  icon: Meditation
+  icon: meditation
   
 - time: 5:00 PM
   program: Advanced Bootcamp
