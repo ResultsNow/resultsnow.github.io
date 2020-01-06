@@ -1,114 +1,109 @@
 monday:
 
-- time: 6:00 AM
-  program: Yoga Basics
+- time:
+  program: 
   trainer: Alisa
   type: Yoga
   icon: meditation
   
-- time: 5:00 PM
-  program: Advanced Bootcamp
-  trainer: Ethan
+- time: 
+  program: 
+  trainer: Alisa
   type: Mix
   icon: exercise-2
 
-- time: 6:30 PM
-  program: Advanced Weightlifting
+- time:
+  program: 
   trainer: Kat
   type: Strength
   icon: weightlifting
 
 tuesday:
 
-- time: 5:00 AM
-  program: Advanced Weightlifting
-  trainer: Kat
+- time:
+  program: 
+  trainer: Alisa
   type: Strength
   icon: weightlifting
 
-- time: 10:30 AM
-  program: Vinyasa Flow 
+- time: 
+  program:  
   trainer: Lisa
   type: Yoga
   icon: meditation
   
-- time: 7:00 PM
-  program: Barre
+- time: 
+  program: 
   trainer: Kat
   type: Mix
   icon: exercise-2
 
 wednesday:
 
-- time: 5:30 AM
-  program: Cardio Core
+- time: 
+  program: 
   trainer: Alisa
   type: Cardio
   icon: gym
 
-- time: 9:00 AM
-  program: Barre
+- time: 
+  program: 
   trainer: Kat
   type: Mix
   icon: exercise-2
 
-- time: 12:00 PM
-  program: Old School Bootcamp
-  trainer: Kat
+- time: 
+  program: 
+  trainer: Alisa
   type: Mix
   icon: exercise-2
 
-- time: 6:30 PM
-  program: Cardio Kickboxing
+- time: 
+  program: 
   trainer: Kat
   type: Cardio
   icon: gym
 
 thursday:
 
-- time: 5:30 AM
-  program: Foundations of Weightlifting
+- time: 
+  program: 
   trainer: Kat
   type: Strength
   icon: weightlifting
 
-- time: 11:30 AM
-  program: Foundations of Weightlifting
-  trainer: Kat
+- time: 
+  program:
+  trainer: Alisa
   type: Strength
   icon: weightlifting
 
-- time: 6:00 PM
-  program: Old School Bootcamp
+- time: 
+  program: 
   trainer: Kat
   type: Mix
   icon: exercise-2
 
 friday:
 
-- time: 5:00 AM
-  program: Cardio Kickboxing
+- time: 
+  program: 
   trainer: Alisa
   type: Cardio
   icon: gym
 
-- time: 10:30 AM
-  program: Cardio Core
+- time: 
+  program: 
   trainer: Kat
   type: Cardio 
   icon: gym
 
 saturday:
 
-- time: 8:00 AM
-  program: Yoga Basics
+- time: 
+  program: 
   trainer: Alisa
   type: Yoga
   icon: meditation
 
-- time: 12:00 PM
-  program: Advanced Bootcamp
-  trainer: Ethan
-  type: Mix
-  icon: exercise-2
 
