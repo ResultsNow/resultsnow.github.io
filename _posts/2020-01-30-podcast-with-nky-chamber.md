@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Open House at Results Now
+title: NKY Chamber Podcast
 date: 2020-01-30 15:00:00 -0500
-organizer: Kat Mueller
-location: 1597 Cavalry Dr. Union KY  41091
+author: Kat Mueller
+image: nky-chamber.jpg
 excerpt_separator: <!--more-->
 categories: blog
 ---
